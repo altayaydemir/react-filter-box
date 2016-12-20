@@ -24,12 +24,11 @@ var config = _.assign(commonConfig, {
     },
   },
 
-  
   output: {
     path: path.join(__dirname, 'lib'),
     filename: 'react-filter-box.js',
     library: 'react-filter-box',
-    libraryTarget: 'umd'
+    libraryTarget: 'commonjs2'
   },
 })
 
